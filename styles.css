@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: red;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.logo img {
+    margin-left: 900px;
+}
+
+.navigation a {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 80px;
+    background-color: white;
+}
+
+.icon img {
+    height: 60px;
+}
