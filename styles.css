@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url(./assets/LetrasProyectoNazan-Regular\ \(1\).ttf);
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #232946;
 }
 
 header {
@@ -14,8 +16,17 @@ header {
     justify-content: space-between;
 }
 
+.titleh1 {
+  color: #b8c1ec;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+}
+
 .logo img {
-    margin-left: 900px;
+    margin-left: 800px;
+    width: 40%;
+    height: 20px;
 }
 
 .navigation {
@@ -27,17 +38,17 @@ header {
     list-style: none;
     text-decoration: none;
     margin-right: 80px;
-    background-color: white;
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    color: rebeccapurple;
+    color: #b8c1ec;
 }
 
 
 .icon img {
-    height: 48px;
+    height: 46px;
     margin-right: 33px;
+    position: relative;
 }
 
 .wallpaper {
@@ -50,18 +61,19 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 140px;
+    margin-top: 100px;
     gap: 1rem;
 }
 
 .phrase p {
     font-size: 25px;
+    color: #b8c1ec;
 }
 
 .register-button {
     display: inline-block;
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -143,6 +155,6 @@ header {
   button a svg {
     width: 3em;
   }
-  
 
+  
   
