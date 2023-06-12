@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #232946;
+    background-color: #004643;
 }
 
 header {
@@ -14,6 +14,11 @@ header {
     height: 50px;
     align-items: center;
     justify-content: space-between;
+}
+
+.wallpaper img {
+  height: 482px;
+  width: 100%;
 }
 
 .titleh1 {
