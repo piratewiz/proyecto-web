@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #004643;
+    background: rgb(29, 29, 85);
 }
 
 header {
@@ -17,15 +17,16 @@ header {
 }
 
 .wallpaper img {
-  height: 482px;
+  height: 77vh;
   width: 100%;
+  object-fit: fill;
 }
 
 .titleh1 {
   color: #b8c1ec;
   justify-content: center;
   display: flex;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .logo img {
@@ -50,15 +51,9 @@ header {
 }
 
 
-.icon img {
-    height: 46px;
-    margin-right: 33px;
-    position: relative;
-}
-
-.wallpaper {
-    height: 40vh;
-    background-color: yellowgreen;
+.wallpaper img{
+    height: 70vh;
+    object-fit: fill;
 }
 
 
@@ -66,7 +61,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
     gap: 1rem;
 }
 
@@ -110,7 +104,7 @@ header {
     margin: 0;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
   }
 
   button {
@@ -158,8 +152,6 @@ header {
   }
   
   button a svg {
-    width: 3em;
+    width: 4em;
   }
 
-  
-  
