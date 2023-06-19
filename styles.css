@@ -6,7 +6,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: rgb(29, 29, 85);
+    background: url(./assets/magicpattern.png);
+    background-repeat: no-repeat;
+
 }
 
 header {
@@ -17,7 +19,7 @@ header {
 }
 
 .wallpaper img {
-  height: 77vh;
+  height: 67vh;
   width: 100%;
   object-fit: fill;
 }
@@ -27,6 +29,7 @@ header {
   justify-content: center;
   display: flex;
   margin-top: 20px;
+  background-image: none;
 }
 
 .logo img {
@@ -52,7 +55,7 @@ header {
 
 
 .wallpaper img{
-    height: 70vh;
+    height: 68vh;
     object-fit: fill;
 }
 
@@ -62,11 +65,35 @@ header {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    background-image: none;
+    background: rgba( 60, 35, 84, 0.55 );
+    margin-top: -4px;
+    
 }
 
 .phrase p {
     font-size: 25px;
     color: #b8c1ec;
+    background-image: none;
+}
+
+.acceder span {
+  color: #b8c1ec;
+  font-size: 18px;
+}
+
+.acceder {
+  margin-left: 775px;
+  justify-content: center;
+  align-items: center;
+  background-image: none;
+}
+
+.acceder a {
+  text-decoration: none;
+  background-image: none;
+  color: black;
+  font-size: 25px;
 }
 
 .register-button {
@@ -82,6 +109,7 @@ header {
     border-radius: 10px;
     box-shadow: 5px 5px 0px #000;
     transition: all 0.3s ease;
+    background-image: none;
   }
   
   .register-button:hover {
@@ -105,6 +133,22 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    background-image: none;
+  }
+
+  .advisory {
+    position: absolute;
+    display: flex;
+    background-image: none;
+    gap: 1em;
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+
+  .advisory img {
+    position: relative;
+    height: 47px;
+    width: 60px;
   }
 
   button {
@@ -115,8 +159,8 @@ header {
   }
   
   button a {
-    width: 80px;
-    height: 80px;
+    width: 72px;
+    height: 72px;
     border-radius: 15px;
     display: flex;
     justify-content: center;
